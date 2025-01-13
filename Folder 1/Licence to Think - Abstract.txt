@@ -1,0 +1,45 @@
+Licence to Think
+Abstract
+Dipankar Porey 1
+Ernst & Young LLP
+Dipankar.Porey@in.ey.com
+
+Keywords: Generative adversarial Networks (GANs), Conditional GANs, static controller, dynamic controller
+“Imagine something controlling you, i.e., controlling the thinking system. But, if you introduce an external
+controller into the thinking system, that gives you the permission to think more independently.”
+Generative Adversarial Networks (GANs) represent a cutting-edge class of models that has garnered substantial attention in recent
+times. GANs exhibit the capability to decipher intricate patterns and nuances from images, audio, and data, all without requiring explicit
+guidance on what specific features to discern. Nonetheless, the training of GANs presents significant challenges. Instances arise where
+GANs encounter stagnation, resulting in a lack of diversity in their generated outputs. Additionally, these models can grapple with
+learning difficulties, leading to instability. These challenges often stem from the intricacies of network design, goal formulation, and
+training methodologies employed in the GAN framework.
+We are aware that the entire realm of deep learning revolves around a singular concept: backpropagation. Up to this point, all seems
+well; during backpropagation, adjustments are made to the weights within the neural network nodes. However, some crucial questions
+arises:
+1. what is the underlying process for this phenomenon? While we understand that there are mathematical computations at play, the
+intricacies of this process remain elusive, operating in a manner akin to human thinking.
+2. How exactly does this occur?
+3. How does the model determine which node to update and by what magnitude?
+These deliberations are largely contingent upon the model’s architecture.
+Nevertheless, a novel concept is being introduced − a notion that aims to bestow autonomy upon the model. This empowerment would
+enable the model to independently orchestrate its thought processes, ultimately influencing the updates to node weights.
+Observing the scenario, we notice the model autonomously identifying patterns and assigning responsibilities based on specific conditions
+or classes or labels.
+Now, three questions emerge:
+a. How does the model determine the appropriate responsibilities for distinct class labels?
+b. After assigning responsibilities, how does the model retain the memory of these specific duties?
+c. Is there an auxiliary condition, or a self-regulating mechanism, governing these arbitrary conditions?
+We address these queries using two distinct approaches:
+A. Introduce a single arbitrary controller into both the discriminator and generator.
+B. Introduce a list of arbitrary controller into both the discriminator and generator.
+. The passage delves into the importance of conditions in the context of Conditional Generative Adversarial Networks (CGANs). It
+questions how conditions aid in capturing internal patterns within the generator and discriminator. Various intuitions emerge regarding
+this mechanism. One perspective suggests that static conditions contribute to weight updates in both the generator and discriminator,
+activating specific nodes during image generation. Another angle considers dynamic conditions, where randomness and variation in external
+conditions encourage independence in learning patterns, enabling the model to think autonomously. This dynamic approach aims to deepen
+the relationship between the discriminator and generator, fostering robust and independent learning patterns for both.
+1
+
+Linkedln | GitHub | dipankarporey1996@gmail.com | +91−8972834354 | ISI Kolkata | IIT Guwahati
+
+
